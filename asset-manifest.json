@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.04ff3f66.css",
+    "main.js": "/portfolio/static/js/main.674ac860.js",
+    "static/media/profilowe3.png": "/portfolio/static/media/profilowe3.18dc5d20ce133f7d199d.png",
+    "static/media/macWeather.png": "/portfolio/static/media/macWeather.1166a78e813b1b9720f6.png",
+    "static/media/weatherAppImg1.png": "/portfolio/static/media/weatherAppImg1.868d884e1a9031272f77.png",
+    "static/media/weatherAppImg3.png": "/portfolio/static/media/weatherAppImg3.d933f10489ec8cccc9dd.png",
+    "static/media/weatherAppImg2.png": "/portfolio/static/media/weatherAppImg2.9ea8a60537ef490d23d5.png",
+    "static/media/gameBJ.jpg": "/portfolio/static/media/gameBJ.a313d308142d00739149.jpg",
+    "static/media/hairCut.jpg": "/portfolio/static/media/hairCut.df2c808ba5e5da0f1ad9.jpg",
+    "static/media/f2.jpg": "/portfolio/static/media/f2.4db7b919032623b58c5e.jpg",
+    "static/media/weatherApp.jpg": "/portfolio/static/media/weatherApp.7473eb38c21a3d3e5103.jpg",
+    "static/media/f1.jpg": "/portfolio/static/media/f1.f3d2465d9ec8fea3278b.jpg",
+    "static/media/f3.jpg": "/portfolio/static/media/f3.58381bc366da02d77356.jpg",
+    "static/media/2222.jpg": "/portfolio/static/media/2222.4956ded00e239476ceb9.jpg",
+    "static/media/1111.jpg": "/portfolio/static/media/1111.215d5e1b24d3bd835519.jpg",
+    "static/media/3333.jpg": "/portfolio/static/media/3333.0960fb036eb65fe6fd1e.jpg",
+    "static/media/css.png": "/portfolio/static/media/css.0c13c5cecd566fbab673.png",
+    "static/media/react.png": "/portfolio/static/media/react.ef20e673b9282f8f30fd.png",
+    "index.html": "/portfolio/index.html",
+    "main.04ff3f66.css.map": "/portfolio/static/css/main.04ff3f66.css.map",
+    "main.674ac860.js.map": "/portfolio/static/js/main.674ac860.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04ff3f66.css",
+    "static/js/main.674ac860.js"
+  ]
+}
