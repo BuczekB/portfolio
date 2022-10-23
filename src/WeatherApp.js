@@ -30,7 +30,7 @@ function WeatherApp() {
                     <div className='imageSecound'></div>
                     <div className='imageThird'></div>
                     <div className='mac'>
-                        <img className='macImage' src={mac}></img>
+                        <img className='macImage' alt='' src={mac}></img>
                     </div>
                     
                 </div>
