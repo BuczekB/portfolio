@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Link } from 'react-scroll'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 import './App.css';
 import Cube from './Cube';
 import Card from './Card';
@@ -37,7 +37,7 @@ function App() {
                 </Link>
               </span>
               <span>
-                <Link activeClass="active" className='navigationParagraph' to="works" spy={true} smooth={true} offset={-100} duration={500}>
+                <Link activeClass="active" className='navigationParagraph' to="works" spy={true} smooth={true}  duration={500}>
                   Works
                 </Link>
               </span>
