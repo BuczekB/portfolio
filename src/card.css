@@ -1,0 +1,84 @@
+.card {
+  width: 290px;
+  height: 450px;
+  border: black solid 1px;
+  margin: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 10%;
+  box-shadow: 3px 3px 10px black;
+  margin-bottom: 5vh;
+}
+
+
+
+
+
+
+
+.card button {
+  position: relative;
+  width: 9rem;
+  height: 3.5rem;
+  margin-bottom: 1.5rem;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 2px solid black;
+  color: black;
+  font-size: 1.2rem;
+  transition: all .5s ease-out;
+  z-index: 1;
+  font-weight: 800;
+}
+.card button::before{
+  content: "";
+  position: absolute;
+  background: linear-gradient(#F26C4F, #803929);
+  top: 0;
+  border-radius: 6px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform:scaleX(0);
+  transform-origin: left;
+  transition: all .4s ease-in-out;
+  z-index: -1;
+}
+.card button:hover::before{
+  transform:scaleX(1);
+}
+
+
+
+.card button:hover  {
+  
+  border: 2px solid #F26C4F;
+
+  cursor: pointer;
+  
+}
+
+
+
+
+
+.cardOne {
+  background-image: url('./img/weatherApp.jpg');
+  background-size: cover;
+  overflow: hidden;
+}
+
+
+
+.cardTwo {
+  background-image: url('./img/gameBJ.jpg');
+  background-size: cover;
+}
+
+.cardThree {
+  background-image: url('./img/hairCut.jpg');
+  background-size: cover;
+  color: black;
+
+}

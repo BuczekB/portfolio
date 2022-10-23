@@ -1,0 +1,23 @@
+ <h2 className='juniorHeaderFirst'>Junior Frontend Developer</h2>
+
+
+ .laptop {
+  width: 35vw;
+  height: 66vh;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  animation: loadLaptop 1s ease-in-out;
+}
+
+.laptop::before {
+
+  display: block;
+  content: '';
+  width: 35vw;
+  height: 66vh;
+  border-radius: 50%;
+  border: white solid 10px;
+  filter: blur(15px);
+}

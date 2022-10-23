@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(90deg, #222222, #F26C4F);
+}
+
+.test {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F26C4F;
+}
