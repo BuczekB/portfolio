@@ -204,8 +204,9 @@ nav::before {
   overflow: hidden;
  
 }
-.imageHeroTest{
+.imageHero{
   
+  filter:contrast(115%) brightness(0.85);
   width: 500px;
   height: auto;
   transform: rotate(30deg);

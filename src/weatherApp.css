@@ -34,10 +34,11 @@
 
 .workBox {
     width: 100vw;
-    height: 85vh;
+    height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .imageBox {
@@ -46,53 +47,29 @@
     flex-direction: column;
     display: flex;
     align-items: center;
+    
 }
 
-.imageFirst {
-    width: 50%;
-    height: 50%;
-    background-image: url('./img/weatherAppImg3.png');
-    background-size: cover;
-    transform: translate(-20%, 10%);
-    transition: ease-in-out .5s;
-    border: 2px solid #F26C4F;
+.imageBox{
+    width: 50vw;
+    height: 60vh;
+    position: relative;
 }
 
-.imageSecound {
-    width: 50%;
-    height: 50%;
-    background-image: url('./img/weatherAppImg2.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    transform: translate(25%, 5%);
-    transition: ease-in-out .5s;
-    border: 2px solid #F26C4F;
+.weatherBig{
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    position: absolute;
+    top:  0;
+    left:  0;
 }
-
-.imageThird {
-    width: 50%;
-    height: 50%;
-    background-image: url('./img/weatherAppImg1.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    transform: translate(-20%, -5%);
-    transition: ease-in-out .5s;
-    border: 2px solid #F26C4F;
-}
-
-.imageThird:hover {
-    transform: scale(1.1) translate(-20%, -5%);
-    z-index: 5;
-}
-
-.imageSecound:hover {
-    transform: scale(1.1) translate(20%, 5%);
-    z-index: 5;
-}
-
-.imageFirst:hover {
-    transform: scale(1.1) translate(-20%, 10%);
-    z-index: 5;
+.weatherSmall{
+    width: 100%;
+    max-width: 170px;
+    position: absolute; 
+    bottom: 50%;
+    right: 15%;
 }
 
 
@@ -142,18 +119,4 @@ a {
     color: white;
 }
 
-.mac{ 
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    transform: scale(1);
-    top: 10%;
-    left: 10%;
-}
 
-.macImage{
-    width: 600px;
-    height: auto;
-}

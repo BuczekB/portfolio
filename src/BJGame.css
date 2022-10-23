@@ -1,47 +1,18 @@
-
-.imageFirstBJ {
-    width: 50%;
-    height: 50%;
-    background-image: url('./img/1111.jpg');
-    background-size: cover;
-    transform: translate(-20%, 10%);
-    transition: ease-in-out .5s;
-    border: 2px solid hsl(11, 86%, 63%);
+.imageBox{
+    width: 50vw;
+    height: 60vh;
+    position: relative;
 }
 
-.imageSecoundBJ {
-    width: 50%;
-    height: 50%;
-    background-image: url('./img/2222.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    transform: translate(25%, 5%);
-    transition: ease-in-out .5s;
-    border: 2px solid #F26C4F;
+.bigBJ{
+    width: 550px;
+    position: absolute;
+    top:  0;
+    left:  0;
 }
-
-.imageThirdBJ{
-    width: 50%;
-    height: 50%;
-    background-image: url('./img/3333.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    transform: translate(-20%, -5%);
-    transition: ease-in-out .5s;
-    border: 2px solid #F26C4F;
-}
-
-.imageThirdBJ:hover {
-    transform: scale(1.1) translate(-20%, -5%);
-    z-index: 5;
-}
-
-.imageSecoundBJ:hover {
-    transform: scale(1.1) translate(20%, 5%);
-    z-index: 5;
-}
-
-.imageFirstBJ:hover {
-    transform: scale(1.1) translate(-20%, 10%);
-    z-index: 5;
+.smallBJ{
+    width: 170px;
+    position: absolute; 
+    bottom: 50%;
+    right: 15%;
 }

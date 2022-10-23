@@ -1,47 +1,18 @@
-
-.imageFirstF {
-    width: 50%;
-    height: 50%;
-    background-image: url('./img/f1.jpg');
-    background-size: cover;
-    transform: translate(-20%, 10%);
-    transition: ease-in-out .5s;
-    border: 2px solid #F26C4F;
+.imageBox{
+    width: 50vw;
+    height: 60vh;
+    position: relative;
 }
 
-.imageSecoundF {
-    width: 50%;
-    height: 50%;
-    background-image: url('./img/f2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    transform: translate(25%, 5%);
-    transition: ease-in-out .5s;
-    border: 2px solid #F26C4F;
+.webBig{
+    width: 550px;
+    position: absolute;
+    top:  0;
+    left:  0;
 }
-
-.imageThirdF{
-    width: 50%;
-    height: 50%;
-    background-image: url('./img/f3.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    transform: translate(-20%, -5%);
-    transition: ease-in-out .5s;
-    border: 2px solid #F26C4F;
-}
-
-.imageThirdF:hover {
-    transform: scale(1.1) translate(-20%, -5%);
-    z-index: 5;
-}
-
-.imageSecoundF:hover {
-    transform: scale(1.1) translate(20%, 5%);
-    z-index: 5;
-}
-
-.imageFirstF:hover {
-    transform: scale(1.1) translate(-20%, 10%);
-    z-index: 5;
+.webSmall{
+    width: 170px;
+    position: absolute; 
+    bottom: 50%;
+    right: 15%;
 }

@@ -1,7 +1,8 @@
 import React from 'react';
 import './website.css'
 import { Link } from 'react-router-dom'
-
+import webBig from "./img/webBig.png"
+import webSmall from "./img/webSmall.png"
 
 
 function Website() {
@@ -24,11 +25,10 @@ function Website() {
         </div>
 
         <div className='workBox'>
-            <div className='imageBox'>
-                <div className='imageFirstF'></div>
-                <div className='imageSecoundF'></div>
-                <div className='imageThirdF'></div>
-            </div>
+        <div className='imageBox'>
+                <img className='webBIg' alt='' src={webBig}></img>
+                <img className='webSmall' alt='' src={webSmall}></img>
+        </div>
             <div className='infoBox'>
                 <h3 >Website</h3>
                 <span className='infoText'>Prosta strona (onepage) dla zakładu fryzjerskiego. Napisana przy użyciu JS oraz CSS</span>

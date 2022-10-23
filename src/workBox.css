@@ -5,17 +5,19 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 .works {
     width: 100vw;
-    height: 85vh;
+    height: 100vh;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(90deg, #b93d21, #222222);
+    
 }
 
 .works h2{

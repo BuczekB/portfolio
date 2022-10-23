@@ -1,8 +1,8 @@
 import React from 'react';
 import './weatherApp.css'
 import { Link } from 'react-router-dom'
-import mac from "./img/macWeather.png"
-
+import weatherBig from "./img/weatherBig.png"
+import weatherSmall from "./img/weatherSmall.png"
 
 
 function WeatherApp() {
@@ -26,13 +26,8 @@ function WeatherApp() {
 
             <div className='workBox'>
                 <div className='imageBox'>
-                <div className='imageFirst'></div>
-                    <div className='imageSecound'></div>
-                    <div className='imageThird'></div>
-                    <div className='mac'>
-                        <img className='macImage' alt='' src={mac}></img>
-                    </div>
-                    
+                    <img className='weatherBig' alt='' src={weatherBig}></img>
+                    <img className='weatherSmall' alt='' src={weatherSmall}></img>
                 </div>
                 <div className='infoBox'>
                     <h3 >Weather App</h3>
