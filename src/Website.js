@@ -26,7 +26,7 @@ function Website() {
 
         <div className='workBox'>
         <div className='imageBox'>
-                <img className='webBIg' alt='' src={webBig}></img>
+                <img className='webBig' alt='' src={webBig}></img>
                 <img className='webSmall' alt='' src={webSmall}></img>
         </div>
             <div className='infoBox'>

@@ -89,8 +89,9 @@ function App() {
               <span className='orangeSpan'> About </span>
               Me</h3>
             <p>
-              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+              Witam nazywam się Jakub i jestem Junior Frontend/JavaScript Developerem. Aktualnie znajdujesz się na stronie, która przedstawia w skrócie moje najciekawsze projekty na których podstawie mozna określić moje umiejętnośći.
             </p>
+           <p>Programować zacząłem 3 lata temu wsiąkłem od razu w ten świat  gryż lubie nauke nowych rzeczy co w programowaniu jest nieuniknione ze względu na ciągły rozwój wszystkich technologi oraz spodobało mi sie to uczucie gdy po długiej batalii z kodem ostatecznie udaje nam sie rozwiazac dreczacy nas problem.  Od tego momentu w wolnych chwilach staram sie pogłębiać swoja wiedze w tym zakresie. Nauke zaczynałem od C++ orac Pythona jednak ostatecznie najwiecej swojego czasu poświeciłem na JavaScript i framework z nim zwiozany czyli React poznając po drodze inne narzedzia pomagające w tworzeniu stron i aplikacji webowych. Nie jestem studentem informatyki ani kierunków pobocznych jednak myslę, iż nie powinno to w niczym przeszkadzać, ponieważ ostatecznie liczął sie umiejętnośći.</p>
 
           </div>
           <div className="laptop">
