@@ -1,18 +1,25 @@
 {
-  "main.css": "static/css/main.dfc3c8be.css",
-  "main.css.map": "static/css/main.dfc3c8be.css.map",
-  "main.js": "static/js/main.bd171f5d.js",
-  "main.js.map": "static/js/main.bd171f5d.js.map",
-  "static\\media\\bjBig.png": "static/media/bjBig.64ff47be.png",
-  "static\\media\\bjSmall.png": "static/media/bjSmall.9b94f053.png",
-  "static\\media\\css.png": "static/media/css.7d983e80.png",
-  "static\\media\\gameBJ.jpg": "static/media/gameBJ.fb517d83.jpg",
-  "static\\media\\hairCut.jpg": "static/media/hairCut.2d611c60.jpg",
-  "static\\media\\profilowe3.png": "static/media/profilowe3.0c8afc95.png",
-  "static\\media\\react.png": "static/media/react.cba0b89d.png",
-  "static\\media\\weatherApp.jpg": "static/media/weatherApp.0b1b3d12.jpg",
-  "static\\media\\weatherBig.png": "static/media/weatherBig.babe8e9a.png",
-  "static\\media\\weatherSmall.png": "static/media/weatherSmall.ae587ea0.png",
-  "static\\media\\webBig.png": "static/media/webBig.eb7a8db6.png",
-  "static\\media\\webSmall.png": "static/media/webSmall.3c4ef378.png"
+  "files": {
+    "main.css": "/portfolio/static/css/main.29034a42.css",
+    "main.js": "/portfolio/static/js/main.e1b2bdd0.js",
+    "static/media/profilowe3.png": "/portfolio/static/media/profilowe3.18dc5d20ce133f7d199d.png",
+    "static/media/weatherBig.png": "/portfolio/static/media/weatherBig.8f3be8879103199c5127.png",
+    "static/media/webBig.png": "/portfolio/static/media/webBig.a338f7d29091af23a98c.png",
+    "static/media/bjBig.png": "/portfolio/static/media/bjBig.83eeef5c2742188c628f.png",
+    "static/media/webSmall.png": "/portfolio/static/media/webSmall.231d8645ee161afcdfd6.png",
+    "static/media/gameBJ.jpg": "/portfolio/static/media/gameBJ.a313d308142d00739149.jpg",
+    "static/media/weatherSmall.png": "/portfolio/static/media/weatherSmall.f9dedb2287d3ab056c5e.png",
+    "static/media/hairCut.jpg": "/portfolio/static/media/hairCut.df2c808ba5e5da0f1ad9.jpg",
+    "static/media/weatherApp.jpg": "/portfolio/static/media/weatherApp.7473eb38c21a3d3e5103.jpg",
+    "static/media/bjSmall.png": "/portfolio/static/media/bjSmall.de4ddf748b932e5942c0.png",
+    "static/media/css.png": "/portfolio/static/media/css.0c13c5cecd566fbab673.png",
+    "static/media/react.png": "/portfolio/static/media/react.ef20e673b9282f8f30fd.png",
+    "index.html": "/portfolio/index.html",
+    "main.29034a42.css.map": "/portfolio/static/css/main.29034a42.css.map",
+    "main.e1b2bdd0.js.map": "/portfolio/static/js/main.e1b2bdd0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29034a42.css",
+    "static/js/main.e1b2bdd0.js"
+  ]
 }
