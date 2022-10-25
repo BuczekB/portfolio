@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Card from './Card';
 import './workBox.css';
 
@@ -23,9 +22,9 @@ function WorkBox() {
 
 
             <div className='worksBox'>
-                <Card text={'Weather App'} bg={'cardOne '} />
-                <Card text={'BJ Game'} bg={'cardTwo '} />
-                <Card text={'Website'} bg={'cardThree '} />
+                <Card text={'Weather App'} bg={'cardOne '}></Card>
+                <Card text={'BJ Game'} bg={'cardTwo '} ></Card>
+                <Card text={'Website'} bg={'cardThree '}></Card>
             </div >
 
         </div >

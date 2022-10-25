@@ -1,6 +1,8 @@
 import React from 'react';
-import { Button, Link } from 'react-scroll'
-import { HashRouter as Router, Switch, Route } from 'react-router-dom'
+import { Button, Link } from 'react-scroll';
+import { HashRouter as Router, Switch, Route} from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
+import { motion, AnimatePresence } from "framer-motion"
 import './App.css';
 import Cube from './Cube';
 import Card from './Card';
@@ -15,8 +17,8 @@ import heroImage from "./img/profilowe3.png";
 
 function App() {
 
-
-
+  
+  
 
   return (
     <Router>
@@ -57,17 +59,32 @@ function App() {
             </div >
             <div className='right'>
               <div className='mainInfo'>
-                <h1>Witam jestem 
-                <span className='orangeSpan'> Jakub! </span>
-                </h1>
-                <h3 className='juniorH3'>Junior Frontend Developer</h3>
+                <motion.h1 
+                initial={{x:'100vw', opacity:0}}
+                animate={{x:0, opacity:1}}
+                
+                >Witam jestem 
+                <motion.span 
+                initial={{x:'100vw', opacity:0}}
+                animate={{x:0, opacity:1}}
+                className='orangeSpan'> Jakub! </motion.span>
+                </motion.h1>
+                <motion.h3 
+                initial={{x:'100vw', opacity:0}}
+                animate={{x:0, opacity:1}}
+                transition={{delay: 0.3}}
+                className='juniorH3'>Junior Frontend Developer</motion.h3>
                
                 
               </div>
               <div>
                
                   <Link activeClass="active" to="more" spy={true} smooth={true} offset={-100} duration={500}>
-                  <button className='moreButton' type='button'>More</button>
+                  <motion.button 
+                  initial={{x:'100vw', opacity:0}}
+                  animate={{x:0, opacity:1}}
+                  transition={{delay: 0.65}}
+                  className='moreButton' type='button'>More</motion.button>
                 </Link>
                 
               </div>
@@ -88,14 +105,25 @@ function App() {
             <h3>
               <span className='orangeSpan'> About </span>
               Me</h3>
-            <p>
+            <motion.p
+            initial={{opacity:0}}
+            whileInView={{opacity:1}}
+            transition={{duration:1.2, delay:0.2}}>
               Witam nazywam się Jakub i jestem Junior Frontend/JavaScript Developerem. Aktualnie znajdujesz się na stronie, która przedstawia w skrócie moje najciekawsze projekty na których podstawie mozna określić moje umiejętnośći.
-            </p>
-           <p>Programować zacząłem 3 lata temu wsiąkłem od razu w ten świat  gryż lubie nauke nowych rzeczy co w programowaniu jest nieuniknione ze względu na ciągły rozwój wszystkich technologi oraz spodobało mi sie to uczucie gdy po długiej batalii z kodem ostatecznie udaje nam sie rozwiazac dreczacy nas problem.  Od tego momentu w wolnych chwilach staram sie pogłębiać swoja wiedze w tym zakresie. Nauke zaczynałem od C++ orac Pythona jednak ostatecznie najwiecej swojego czasu poświeciłem na JavaScript i framework z nim zwiozany czyli React poznając po drodze inne narzedzia pomagające w tworzeniu stron i aplikacji webowych. Nie jestem studentem informatyki ani kierunków pobocznych jednak myslę, iż nie powinno to w niczym przeszkadzać, ponieważ ostatecznie liczął sie umiejętnośći.</p>
+            </motion.p>
+           <motion.p
+            initial={{opacity:0}}
+            whileInView={{opacity:1}}
+            transition={{duration:1.2, delay:0.2}}>
+            Programować zacząłem 3 lata temu wsiąkłem od razu w ten świat  gryż lubie nauke nowych rzeczy co w programowaniu jest nieuniknione ze względu na ciągły rozwój wszystkich technologi oraz spodobało mi sie to uczucie gdy po długiej batalii z kodem ostatecznie udaje nam sie rozwiazac dreczacy nas problem.  Od tego momentu w wolnych chwilach staram sie pogłębiać swoja wiedze w tym zakresie. Nauke zaczynałem od C++ orac Pythona jednak ostatecznie najwiecej swojego czasu poświeciłem na JavaScript i framework z nim zwiozany czyli React poznając po drodze inne narzedzia pomagające w tworzeniu stron i aplikacji webowych. Nie jestem studentem informatyki ani kierunków pobocznych jednak myslę, iż nie powinno to w niczym przeszkadzać, ponieważ ostatecznie liczął sie umiejętnośći.</motion.p>
 
           </div>
           <div className="laptop">
-            <div className='stack'>
+            <motion.div 
+            initial={{opacity:0}}
+            whileInView={{opacity:1}}
+            transition={{duration:1.2, delay:0.2}}
+            className='stack'>
               <h3>Stack</h3>
               <div className='stackList'>
               <ul>
@@ -111,8 +139,12 @@ function App() {
                 <li>SASS</li>
               </ul>
               </div>
-            </div>
-            <div className='contact'>
+            </motion.div>
+            <motion.div 
+             initial={{opacity:0}}
+             whileInView={{opacity:1}}
+             transition={{duration:1.2, delay:0.15}}
+            className='contact'>
               <h3>Contact</h3>
               
               <ul >
@@ -121,29 +153,29 @@ function App() {
                 <li>Phone Number: +48 735 157 016</li>
               </ul>
               
-            </div>
+            </motion.div>
           </div>
-        </div>
-        <div className='works' id='works'>
+         </div>
+            <div className='works' id='works'>
+
+
+            
+              <Switch>
+                <Route path='/' exact component={WorkBox} />
+                <Route path='/BJ Game' component={BJGame} />
+                <Route path='/Website' component={Website} />
+                <Route path='/Weather App' component={WeatherApp} />
+                <Route path='/WebTest' component={WebTest} />
+              </Switch>
+            
 
 
 
-          <Switch>
-            <Route path='/' exact component={WorkBox} />
-            <Route path='/BJ Game' component={BJGame} />
-            <Route path='/Website' component={Website} />
-            <Route path='/Weather App' component={WeatherApp} />
-            <Route path='/WebTest' component={WebTest} />
-          </Switch>
 
 
+            </div>
 
-
-
-
-        </div>
-
-        <ArrowUp />
+        <ArrowUp/>
 
       </div>
     </Router>

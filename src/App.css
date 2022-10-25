@@ -1,64 +1,4 @@
-@keyframes movingHeader {
-  0%{
-    transform:rotate(45deg) translateX(-90%);
-  
-  }
-  
-  100%{
-    transform:rotate(45deg) translateX(100%);
 
-  }
-}
-
-@keyframes loadJuniorHeader{
-  0%{
-    transform:rotate(-35deg) translateY(-150%);
-    
-  
-  }
-  
-  100%{
-    transform:rotate(-35deg) ;
-
-  }
-}
-@keyframes loadText{
-  0%{
-    transform: translateX(150%);
-    
-  
-  }
-  
-  100%{
-    transform: translateX(0);
-
-  }
-}
-@keyframes loadButton{
-  0%{
-    transform: translateX(450%);
-    
-  
-  }
-  
-  100%{
-    transform: translateX(0);
-
-  }
-}
-
-@keyframes loadLaptop{
-  0%{
-    transform: translateX(150%);
-    
-  
-  }
-  
-  100%{
-    transform: translateX(0);
-
-  }
-}
 
 
 .App {
@@ -96,12 +36,10 @@ nav {
 .main p{
   font-size: 1.1rem;
   text-shadow: black 1px 1px;
-  animation: loadText .8s ease-in-out ;
+ 
 }
 
-.main h1{
-  animation: loadText .8s ease-in-out ;
-}
+
 
 
 
@@ -265,7 +203,7 @@ nav::before {
   z-index: -1;
   font-family: 'Rubik Dirt', cursive;
   font-weight: bold;
-  animation: loadJuniorHeader 1s ease-in-out;
+  
 }
 .moreButton{
   width: 140px;
@@ -283,7 +221,7 @@ nav::before {
  border: none;
   color: #fff;
   transition: 0.1s ease-in-out;
-  animation: loadButton 1.2s ease-in-out ;
+  
 }
 
 .moreButton:hover{
@@ -325,7 +263,7 @@ nav::before {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 5%;
-  animation: loadLaptop 1s ease-in-out;
+  
 }
 .stack{
   display: flex;
@@ -382,7 +320,6 @@ nav::before {
 
 
 .juniorH3{
-  animation: loadText 1s ease-in-out ;
   text-shadow: black 1px 1px;
 }
 
