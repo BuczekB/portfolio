@@ -53,7 +53,7 @@ function App() {
             <div className='left'>
             
               <div className='heroImage'>
-                <img className='imageHero' alt='profilowe3.png' src={heroImage}></img>
+                <img  className='imageHero' width={500} height="auto" alt='profilowe3.png' src={heroImage}></img>
               </div> 
               <div className='circle'></div>
             </div >
