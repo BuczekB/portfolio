@@ -4,6 +4,14 @@
 ## Web Portfolio Junior Frontend Developer
 
 
+## Stack
+
+- React
+- CSS
+
+
+
+
 
 
 
