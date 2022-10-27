@@ -145,8 +145,8 @@ nav::before {
 .imageHero{
   
   filter:contrast(115%) brightness(0.85);
-  width: 480px;
-  max-width: 500px;
+  width: 440px;
+  max-width: auto;
   height: auto;
   transform: rotate(30deg);
   
@@ -241,7 +241,7 @@ nav::before {
   position: relative;
   margin-top: 100vh;
   width: 100vw;
-  height: 80vh;
+  height: 90vh;
   background-image: linear-gradient(90deg, #b93d21, #222222);
   display: flex;
   justify-content: center;
@@ -308,13 +308,17 @@ nav::before {
 
 .aboutMe {
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
   width: 40vw;
-  height: 45vh;
+  max-height: 80vh;
+  height: auto;
   padding: 1rem;
   z-index: 1;
   color: #fff;
   text-shadow: black 2px 2px 2px;
   text-transform: uppercase;
+  
 }
 
 
@@ -329,7 +333,7 @@ nav::before {
 }
 
 .aboutMe p {
-  font-size: 14px;
+  font-size: 13px;
   text-shadow: black 2px 2px 2px;
 }
 
@@ -371,4 +375,57 @@ footer {
   background-image: linear-gradient(90deg, #000000, #262626);
   display: flex;
   overflow: hidden;
+}
+
+.mobileVersion{
+  display: none;
+}
+
+
+
+@media (max-width: 1100px) {
+  
+  .imageHero{
+  
+    filter:contrast(115%) brightness(0.85);
+    width: 380px;
+    max-width: auto;
+    height: auto;
+    transform: rotate(30deg);
+    
+  }
+  
+  
+  .aboutMe {
+    width: 50vw;
+  }
+  
+  
+  }
+@media (max-width: 900px) {
+  
+
+.main, .about, #works{
+ display: none;
+}
+
+.mobileVersion{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column ;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px white;
+  background-image: linear-gradient(90deg, #b93d21, #222222);
+}
+.mobileVersion span{ 
+  display: block;
+  color: white;
+  
+}
+
 }

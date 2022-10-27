@@ -1,7 +1,7 @@
 .arroww {
     width: 50px;
     height: 50px;
-    transition: ease-in .2s;
+    transition: ease-in .1s;
 }
 
 .arrow {
@@ -10,8 +10,8 @@
     align-items: center;
     justify-content: center;
     z-index: 5;
-    bottom: 5%;
-    right: 5%;
+    bottom: 3%;
+    right: 3%;
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
@@ -23,3 +23,35 @@
 .arrow:hover .arroww{
    fill: #F26C4F;
 }
+
+@media (max-width:1250px) {
+  
+    .arroww {
+        width: 30px;
+        height: 30px;
+        
+    }
+    
+    .arrow {
+        width: 3rem;
+        height: 3rem;
+        
+    }
+    
+    }
+
+    @media (max-width:1080px) {
+  
+         .arroww {
+        width: 25px;
+        height: 25px;
+        
+    }
+    
+    .arrow {
+    width: 2.5rem;
+    height: 2.5rem;
+    }
+    
+        }
+    

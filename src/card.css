@@ -1,5 +1,6 @@
 .card {
   width: 22vw;
+  min-width: 250px;
   height: 70vh;
   border: black solid 1px;
   margin: .5rem;
@@ -9,6 +10,7 @@
   border-radius: 10%;
   box-shadow: 3px 3px 10px black;
   margin-bottom: 5vh;
+  
 }
 
 

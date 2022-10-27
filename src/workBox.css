@@ -5,6 +5,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+   
     
 }
 
@@ -24,3 +25,13 @@
     color: white;
     text-shadow: 1px 1px black;
 }
+
+@media (max-width: 1100px) {
+  
+    .worksBox {
+        width: 80vw;
+        
+    }
+    
+    
+    }

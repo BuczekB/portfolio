@@ -53,7 +53,7 @@ function App() {
             <div className='left'>
             
               <div className='heroImage'>
-                <img  className='imageHero' width={500} height="auto" alt='profilowe3.png' src={heroImage}></img>
+                <img  className='imageHero' width='730px' height='940px' alt='profilowe3.png' src={heroImage}></img>
               </div> 
               <div className='circle'></div>
             </div >
@@ -109,13 +109,13 @@ function App() {
             initial={{opacity:0}}
             whileInView={{opacity:1}}
             transition={{duration:1.2, delay:0.2}}>
-              Witam nazywam się Jakub i jestem Junior Frontend/JavaScript Developerem. Aktualnie znajdujesz się na stronie, która przedstawia w skrócie moje najciekawsze projekty na których podstawie mozna określić moje umiejętnośći.
+                  Cześć! Jestem Jakub i mój aktualny poziom w zakresie umiejętności IT to Junior Fronted/JavaScript Developer. Właśnie znajdujesz się na stronie na której przedstawiam moje  najciekawsze projekty. Sam/a możesz dzięki temu określić poziom moich aktualnych umiejętności.
             </motion.p>
            <motion.p
             initial={{opacity:0}}
             whileInView={{opacity:1}}
             transition={{duration:1.2, delay:0.2}}>
-            Programować zacząłem 3 lata temu wsiąkłem od razu w ten świat  gryż lubie nauke nowych rzeczy co w programowaniu jest nieuniknione ze względu na ciągły rozwój wszystkich technologi oraz spodobało mi sie to uczucie gdy po długiej batalii z kodem ostatecznie udaje nam sie rozwiazac dreczacy nas problem.  Od tego momentu w wolnych chwilach staram sie pogłębiać swoja wiedze w tym zakresie. Nauke zaczynałem od C++ orac Pythona jednak ostatecznie najwiecej swojego czasu poświeciłem na JavaScript i framework z nim zwiozany czyli React poznając po drodze inne narzedzia pomagające w tworzeniu stron i aplikacji webowych. Nie jestem studentem informatyki ani kierunków pobocznych jednak myslę, iż nie powinno to w niczym przeszkadzać, ponieważ ostatecznie liczął sie umiejętnośći.</motion.p>
+            Przygodę z programowaniem zacząłem 3 lata temu i od pierwszego momentu pochłonęło mnie to całkowicie. W pracy tej najbardziej lubię to że na bieżąco mogę uczyć się nowych rzeczy, dzięki temu że technologia wciąż idzie do przodu. Ponadto nadwyraz polubiłem to uczucie  satysfakcji gdy po długiej batali z kodem w końcu udaje się rozwiązać ten nurtujący problem.  Od tego momentu ciągle pogłębiam swoją wiedzę w tym zakresie. Swoją naukę zacząłem od c++ oraz pythona, jednak najwięcej swojego czasu poświęciłem na JavaScript i frameWork z nim zwiazany- React. Poznając oczywiście po drodze wiele narzędzi pomocnych w tworzeniu stron i aplikacji webowych. Fakt, nie jestem studentem informatyki ani kierowników pobocznych. Od początku ambitnie podchodzę do zadania i  uczę się sam. Wyłącznie rzeczy które uważam za istotne i które rokują potencjalnie na przyszłe lata. Uważam że od papierka ważniejsze są posiadane umiejętności i motywacja do działania.</motion.p>
 
           </div>
           <div className="laptop">
@@ -176,7 +176,11 @@ function App() {
             </div>
 
         <ArrowUp/>
+        <div className='mobileVersion'>
+        <span>Mobile Version</span>
+        <span>coming soon</span>
 
+        </div>
       </div>
     </Router>
   );
