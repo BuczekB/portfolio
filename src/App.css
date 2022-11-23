@@ -108,6 +108,7 @@ nav::before {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  transform: rotate(30deg);
 }
 
 .heroImage {
@@ -130,10 +131,9 @@ nav::before {
 
 .imageHero {
   filter: contrast(115%) brightness(0.85);
-  width: 440px;
+  width: 580px;
   max-width: auto;
   height: auto;
-  transform: rotate(30deg);
 }
 
 .heroImagee:hover {
@@ -347,18 +347,34 @@ footer {
 .mobileVersion {
   display: none;
 }
+@media (max-width: 1300px) {
+  .circle {
+    width: 75vh;
+    height: 75vh;
+  }
+  .imageHero {
+    width: 520px;
+    height: auto;
+  }
+}
 
 @media (max-width: 1100px) {
   .imageHero {
     filter: contrast(115%) brightness(0.85);
-    width: 380px;
+    width: 500px;
     max-width: auto;
     height: auto;
-    transform: rotate(30deg);
+  }
+  .heroImage {
+    height: 60vh;
   }
 
   .aboutMe {
     width: 50vw;
+  }
+  .circle {
+    width: 60vh;
+    height: 60vh;
   }
 }
 
