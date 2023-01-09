@@ -52,7 +52,7 @@ function BJGame() {
                      whileInView={{opacity:1}}
                      transition={{duration:1.2, delay:0.2}}
                     className='infoText'>Przeglądarkowa gra karciana BlackJack. Aplikacja jest na etapie w którym można już prowadzić rozgrywke lecz jest dalej rozwijana. Została napisana przy użyciu Reacta.</motion.span>
-                    <a href='https://buczekb.github.io/game-bj' target="_blank">
+                    <a href='https://buczekb.github.io/game-bj' target="_blank" rel="noreferrer">
                     <motion.button 
                     initial={{opacity:0}}
                     whileInView={{opacity:1}}

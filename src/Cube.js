@@ -1,9 +1,9 @@
 import React from 'react';
 import './cube.css'
 
-function Cube({ bg }) {
+function Cube( bg ) {
 
-
+    console.log(bg, 'test');
 
 
     return (

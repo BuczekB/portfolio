@@ -49,7 +49,7 @@ function Website() {
                 whileInView={{opacity:1}}
                 transition={{duration:1.2, delay:0.2}}
                 className='infoText'>Prosta strona (onepage) dla zakładu fryzjerskiego. Napisana przy użyciu JS oraz CSS</motion.span>
-                <a href='https://buczekb.github.io/website-FRYZ/' target="_blank">
+                <a href='https://buczekb.github.io/website-FRYZ/' target="_blank" rel="noreferrer">
                 <motion.button 
                 initial={{opacity:0}}
                 whileInView={{opacity:1}}
