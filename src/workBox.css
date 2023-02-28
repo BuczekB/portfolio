@@ -4,9 +4,7 @@
     position: relative;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-   
-    
+    align-items: center; 
 }
 
 .works {
@@ -34,4 +32,14 @@
     }
     
     
+    }
+
+@media (max-width: 900px) {
+    .worksBox {
+        flex-direction: column;
+        min-height: 110vh;
+    }
+    .works {
+        min-height: 110vh;
+    }
     }

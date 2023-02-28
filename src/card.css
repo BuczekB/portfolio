@@ -84,3 +84,25 @@
   color: black;
 
 }
+
+@media (max-width: 900px) {
+  .card{
+    align-items: center;
+    border-radius: 50px;
+  }
+  .cardOne {
+    width: 70vw;
+    background-image: url('./img/weatherApp.jpg') no-repeat center center fixed;
+  }
+  
+  .cardTwo {
+    width: 70vw;
+    background-image: url('./img/gameBJ.jpg') no-repeat center center fixed;
+  }
+  
+  .cardThree {
+    width: 70vw;
+    background-image: url('./img/hairCut.jpg') no-repeat center center fixed;
+  }
+  
+  }
