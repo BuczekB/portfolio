@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.fb4d5374.css",
-    "main.js": "/portfolio/static/js/main.da595111.js",
+    "main.css": "/portfolio/static/css/main.c7ba6cae.css",
+    "main.js": "/portfolio/static/js/main.7f5878fa.js",
+    "static/media/bigCrypto.png": "/portfolio/static/media/bigCrypto.e04aa3878dcca7082b68.png",
+    "static/media/bg-crypto.jpg": "/portfolio/static/media/bg-crypto.c067769758d6f8859f85.jpg",
     "static/media/profilowe3.png": "/portfolio/static/media/profilowe3.d11f38f651a93302da46.png",
     "static/media/weatherBig.png": "/portfolio/static/media/weatherBig.e99ceb71589b9ff987e3.png",
     "static/media/webBig.png": "/portfolio/static/media/webBig.dc728e2d580bf8cf3875.png",
@@ -12,12 +14,13 @@
     "static/media/webSmall.png": "/portfolio/static/media/webSmall.1ceec550f04d8bf89f30.png",
     "static/media/weatherSmall.png": "/portfolio/static/media/weatherSmall.88a4e9291a7c18cd332f.png",
     "static/media/bjSmall.png": "/portfolio/static/media/bjSmall.c0dc97559c982e9f3653.png",
+    "static/media/smallCrypto.png": "/portfolio/static/media/smallCrypto.76851506ff480cf3e3e2.png",
     "index.html": "/portfolio/index.html",
-    "main.fb4d5374.css.map": "/portfolio/static/css/main.fb4d5374.css.map",
-    "main.da595111.js.map": "/portfolio/static/js/main.da595111.js.map"
+    "main.c7ba6cae.css.map": "/portfolio/static/css/main.c7ba6cae.css.map",
+    "main.7f5878fa.js.map": "/portfolio/static/js/main.7f5878fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb4d5374.css",
-    "static/js/main.da595111.js"
+    "static/css/main.c7ba6cae.css",
+    "static/js/main.7f5878fa.js"
   ]
 }
