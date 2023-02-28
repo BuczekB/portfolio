@@ -10,6 +10,7 @@ import ArrowUp from './ArrowUp';
 import WeatherApp from './WeatherApp';
 import BJGame from './BJGame';
 import Website from './Website';
+import CryptoApp from './CryptoApp';
 
 import heroImage from './img/profilowe3.png';
 
@@ -170,6 +171,8 @@ function App() {
                 <ul>
                   <li>JavaScript</li>
                   <li>React</li>
+                  <li>TypeScript</li>
+                  <li>Redux</li>
                   <li>Html</li>
                   <li>CSS</li>
                 </ul>
@@ -178,6 +181,8 @@ function App() {
                   <li>API</li>
                   <li>RWD</li>
                   <li>SASS</li>
+                  <li>React Router</li>
+                  <li>Material Ui</li>
                 </ul>
               </div>
             </motion.div>
@@ -203,6 +208,7 @@ function App() {
             <Route path="/BJ Game" component={BJGame} />
             <Route path="/Website" component={Website} />
             <Route path="/Weather App" component={WeatherApp} />
+            <Route path="/Crypto App" component={CryptoApp} />
             <Route path="/WebTest" component={WebTest} />
           </Switch>
         </div>

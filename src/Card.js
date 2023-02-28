@@ -5,7 +5,8 @@ import { motion } from "framer-motion"
 
 function Card(data) {
     const card = `card ${data.bg}`
-    console.log(card);
+    console.log(data, 'data');
+    
 
     return (
 

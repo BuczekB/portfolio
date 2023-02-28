@@ -43,3 +43,13 @@
         min-height: 110vh;
     }
     }
+
+    @media (max-width: 1200px) {
+        .worksBox {
+            flex-direction: column;
+            min-height: 110vh;
+        }
+        .works {
+            min-height: 110vh;
+        }
+        }
