@@ -1,0 +1,26 @@
+
+
+ .main,
+  .about,
+  #works {
+    display: none;
+  }
+
+  .mobileVersion {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px white;
+    background-image: linear-gradient(90deg, #b93d21, #222222);
+  }
+
+  .mobileVersion span {
+    display: block;
+    color: white;
+  }

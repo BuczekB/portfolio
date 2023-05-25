@@ -22,7 +22,7 @@ function WorkBox() {
 
 
             <div className='worksBox'>
-            <Card text='Crypto App' bg='cardFour '></Card>
+                <Card text='Crypto App' bg='cardFour '></Card>
                 <Card text='Weather App' bg='cardOne '></Card>
                 <Card text='BJ Game' bg='cardTwo ' ></Card>
                 <Card text='Website' bg='cardThree '></Card>
